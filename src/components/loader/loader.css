@@ -1,0 +1,8 @@
+.loader-container {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+.loader-icon {
+  font-size: 32px;
+}

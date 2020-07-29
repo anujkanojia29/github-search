@@ -1,0 +1,31 @@
+.repos-grid {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+}
+
+.repo-card {
+    padding: 1rem;
+    border: var(--primary-color) 1px solid;
+    border-radius: 2%;
+    margin: 0.7rem 0;
+}
+
+.repo-description{
+    font-size: 14px;
+}
+
+.repo-footer {
+    display: flex;
+    margin: 20px 10px 0px 10px;
+    font-size: 12px;
+}
+
+.repo-icon {
+    font-weight: 600;
+    margin-right: 5px;
+}
+.repo-prop {
+    margin-right: 15px;
+}
