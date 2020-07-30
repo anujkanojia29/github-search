@@ -14,8 +14,7 @@ export const getUserRepos = (username, topCount) => async dispatch => {
         }
     })
         .catch(err => {
-            console.log(err);
-            dispatch({ type: GET_USER_REPOS_ERROR, payload: err })
+            dispatch({ type: GET_USER_REPOS_ERROR, payload: err.message })
         })
 }
 

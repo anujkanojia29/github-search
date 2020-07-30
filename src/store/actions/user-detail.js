@@ -14,8 +14,7 @@ export const getUser = username => async dispatch => {
         }
     })
         .catch(err => {
-            console.log(err);
-            dispatch({ type: GET_USER_DETAIL_ERROR, payload: err })
+            dispatch({ type: GET_USER_DETAIL_ERROR, payload: err.message })
         })
 }
 

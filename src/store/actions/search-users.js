@@ -14,8 +14,7 @@ export const searchUsers = searchValue => async dispatch => {
         }
     })
     .catch(err => {
-        console.log(err);
-        dispatch({type: SEARCH_USERS_ERROR, payload: err})
+        dispatch({type: SEARCH_USERS_ERROR, payload: err.message})
     })
 }
 
